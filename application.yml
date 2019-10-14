@@ -1,0 +1,30 @@
+---
+capela:
+  client:
+    serviceUrl:
+      defaultZone:
+        http://localhost:8010/capela/
+---
+spring:
+  profiles: subject
+words: I,You,He,She,It
+
+---
+spring:
+  profiles: verb
+words: swim,feel,had,join,taught
+
+---
+spring:
+  profiles: article
+words: a,the
+
+---
+spring:
+  profiles: adjective
+words: red, quick, happy, and obnoxious,reasonable,leaky,suspicious,ordinary,unlikely
+
+---
+spring:
+  profiles: noun
+words: Barcelona, Leonardo da Vinci, or Toyota Corolla,boat,book,vote,seat,backpack,partition,groundhog  
